@@ -1,0 +1,38 @@
+body {
+  background-color: #a29bfe;
+}
+
+.App {
+  background-color: #6c5ce7;
+  min-height: 500px;
+  width: 400px;
+  margin: 40px auto;
+}
+
+.Header input {
+  background-color: rgb(27, 112, 137);
+  border: none;
+  height: 50px;
+  width: 200px;
+  padding: 0 20px;
+  margin: 20px;
+  font-size: 18px;
+  border-radius: 10px;
+  color: aliceblue;
+  outline: none;
+}
+
+.Header input::placeholder {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.Header button {
+  height: 50px;
+  width: 80px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  background-color: rgb(202, 156, 32);
+  cursor: pointer;
+  font-weight: bold;
+}

@@ -1,0 +1,27 @@
+.taskList {
+    color: aliceblue;
+    height: 50px;
+    width: 300px;
+    border-radius: 5px;
+    margin: 20px auto;
+    background-color: crimson;
+}
+
+.taskList p {
+    padding: 15px;
+    cursor: pointer;
+    position: relative;
+}
+
+.taskList span {
+    position: absolute;
+    right: 20px;
+}
+
+.taskList input {
+    background: none;
+    border: none;
+    outline: none;
+    color: aliceblue;
+    font-size: 16px;
+}
